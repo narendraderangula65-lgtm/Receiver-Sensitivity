@@ -2,7 +2,7 @@
 # Optical Receiver Sensitivity Analysis
 
 ## Objective
-Determine the sensitivity of a PIN photodiode-based optical receiver by calculating the minimum received power necessary to achieve a given Q factor. Compare simulation results with those obtained analytically.
+Determine the sensitivity of a PIN photodiode-based optical receiver by calculating the minimum received power necessary to achieve a given Q factor. Compare simulation results with those obtained analytically. 
 
 ---
 
@@ -30,6 +30,7 @@ Receiver specifications:
 > Example: If ID ends with **43**, then ST = 4.3 × 10⁻²² A²/Hz.  
 
 Using the formulas above, calculate the receiver sensitivity.
+<img width="897" height="1280" alt="image" src="https://github.com/user-attachments/assets/ce5b15f0-226f-430a-bf3a-61221e38c881" />
 
 ---
 
@@ -58,6 +59,7 @@ Steps:
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
 4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86b73daf-3845-4ceb-9741-151c0482eac4" />
 
 ---
 
